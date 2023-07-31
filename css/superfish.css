@@ -1,0 +1,73 @@
+#main_page nav{margin-bottom: 7px;}
+
+nav{ position:relative;z-index: 99; margin: 0px 0 21px;border-top: 3px solid #111;background: url('../images/nav.png') repeat;box-shadow: 0 1px 4px rgba(0,0,0,0.75);}
+.sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu ul li {width:100%}
+.sf-menu li {float:left;position:relative}
+
+.sf-menu>li>a{display:block;position:relative; padding: 25px 32px 26px 33px;position: relative;}
+.sf-menu>li>a:before{width: 2px;height: 100%;display: block;position: absolute;right: 0;top: 0;background: url('../images/nav_separate.jpg') no-repeat;content: "";}
+.sf-menu>li>a:hover,.sf-menu>li.current>a,.sf-menu>li.sfHover>a{}
+.sf-menu>li>a strong{display: block;position: absolute;top: -3px;left: 0px;height: 3px;width: 100%;background: #111111;}
+.sf-menu>li>a:hover strong,.sf-menu>li.current>a strong,.sf-menu>li.sfHover>a strong{background: #e24110;}
+.sf-menu>li>a em{display: block;position: absolute;width: 0;height: 0;left: 50%;top: 50%;background: url('../images/sf-menu_h.jpg') repeat-x #1b1b1b;}
+.sf-menu>li>a:hover em,.sf-menu>li.current>a em,.sf-menu>li.sfHover>a em{left: 0;top: 0;width: 100%;height: 100%;}
+.sf-menu>li>a>span{position: relative;z-index: 10;}
+.sf-menu a{font-size: 14px; text-transform: uppercase; line-height: 19px; color:#fff;text-shadow: 1px 1px 1px #1c2716;}
+.sf-menu a:hover{color: #fff;}
+
+#search{background: #252424;margin: 15px 16px 0 0;float: right;overflow: hidden;}
+#search input{float: left;font-size: 11px; color: #838383; text-transform: uppercase; font-family: Trebuchet MS1, Trebuchet MS, sans-serif; text-shadow: 1px 1px 0 #0f0e0e;background: none;border: none;width: 206px;padding: 13px 0 12px 12px;height: 16px;outline: none;margin: 0;}
+#search a{display: block;float: left;width: 41px;height: 41px;background: url('../images/search_but.jpg') no-repeat;}
+#search a:hover{background-position: 0 -41px;}
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu li ul,.sf-menu li.sfHover>ul{left:1px;top:73px;width: 163px;padding:12px 0 12px; z-index:99; background: #252424;}
+.sf-menu li ul li{background: url('../images/sub_li.jpg') 0 bottom repeat-x;padding-bottom: 2px;}
+.sf-menu li ul li a{display: block;padding: 8px 0 10px 33px;}
+.sf-menu li li a:hover, .sf-menu li.sfHover li.sfHover>a{background: #474747;}
+.sf-menu .last{background: none;}
+
+
+/*================================>> 3 Level <<========================================*/
+.sf-menu li li ul{left:165px !important;top:-12px !important;}
+.sf-menu>li>a .menu-arrow{display:block; position: absolute; bottom: 15px !important; left: 45%; z-index: 99; width:5px;margin-left:5px;height:5px;text-indent:-100%; font-size:0; line-height:0;background: url('../images/menu_arrow.png') no-repeat;vertical-align: middle;}
+
+.sf-menu li li a .menu-arrow{display:inline-block; position: relative; z-index: 99; width:5px;margin-left:5px;height:5px;text-indent:-100%; font-size:0; line-height:0;background: url('../images/menu_arrow.png') no-repeat;vertical-align: middle;}
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@media only screen and (max-width: 995px) {
+   .sf-menu>li>a{padding: 25px 21px 26px 20px;}
+   #search input{width: 130px;}
+   #search{width:183px;}
+}
+
+@media only screen and (max-width: 767px) {
+  nav{
+		float:none;
+		font:12px/15px Arial, Helvetica, sans-serif;
+		text-transform:uppercase;
+		color:#fff;
+		padding:20px 16px;
+	}
+		nav:before{
+			content:'Menu:';
+			display:block;
+			margin-bottom:5px;
+		}
+	.sf-menu{display:none;}
+	nav select{
+		font:12px/15px Arial, Helvetica, sans-serif;
+		color:#464646;
+		width:100%;
+    outline: none;
+		border:2px solid #111111;
+	}
+  #search{margin: 20px 0 0;width:388px;}
+   #search input{width: 335px;}
+}
+
+@media only screen and (max-width: 479px) {
+	#search input{width: 215px;}
+	#search{width:268px;}
+}
