@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Orientation universitair</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="icon" href="images/logo11.PNG" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo11.PNG" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+	 <script type="text/javascript" src="js/jquery.responsivemenu.js"></script>
+	 <script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+	 <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+   <script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+	 <script src="js/script.js"></script>
+	 <script type="text/javascript">
+		  $(window).load(function() {
+				$('.flexslider').flexslider({
+				  animation: "slide"
+				});
+			 });
+	 </script>
+</head>
+<body id="main_page">
+<!--==============================header=================================-->
+   	<header>
+      <div class="container_12">
+        <div class="grid_12">
+          <div class="top_block wrapper">
+            <h1><a class="logo" href="index.html">Orientation</a></h1>
+            <div class="social">
+              <a href="#" title="Twitter"><img src="images/soc1.jpg" alt=""></a>
+              <a href="#" title="Facebook"><img src="images/soc2.jpg" alt=""></a>
+              <a href="#" title="AddThis"><img src="images/soc3.jpg" alt=""></a>
+              <a href="#" title="AIM"><img src="images/soc4.jpg" alt=""></a>
+              <a href="#" title="Dribble"><img src="images/soc5.jpg" alt=""></a>
+            </div>
+          </div>
+          <nav>
+              <ul class="sf-menu">
+					<li class="current"><a href="index.html"><span>ACCUEIL</span></a></li>
+					<li><a href="index-1.html">UNIVERSITE<span></span></a>
+					<ul>
+						<li><a href="#">DIEGO</a></li>
+						<li><a href="#">MAJUNGA</a>
+						<li><a href="#">TOAMASINA</a></li>
+						<li class="last"><a href="#">TANANARIVO</a></li>
+						<li class="last"><a href="#">FIANARATSOA</a></li>
+						<li class="last"><a href="#">TOLIARA</a></li>
+					</ul>
+					</li>
+					<li><a href="index-2.html"><span>ORIENTATION</span> </a></li>
+					<li><a href="index-3.html"><span>TEST </span></a></li>
+					<li><a href="index-4.html"><span>COMMENTAIRE</span></a></li>
+             </ul>
+              <form id="search" action="search.php" method="GET" accept-charset="utf-8">
+                <input type="text" name="s" value="Recherhe université" onBlur="if(this.value=='') this.value='SEARCH'" onFocus="if(this.value =='SEARCH' ) this.value=''" />
+                <a onclick="document.getElementById('search').submit()"></a>
+             </form> 
+             <div class="clear"></div>
+          </nav>
+          <div class="slider_box">
+            <div class="flexslider">
+              <ul class="slides">
+                <li>
+                  <img src="./images/accail1 (2).png" alt="">
+                  <div class="banner">
+                    <div class="inner">OPTER  </div>
+                  </div>
+                </li>
+                <li>
+                  <img src="./images/accail3.png" alt="">
+                  <div class="banner">
+                    <div class="inner"> UN AVENIR </div>
+                  </div>
+                </li>
+                <li>
+                  <img src="./images/accail2.png" alt="">
+                  <div class="banner">
+                    <div class="inner"> PROMETTEUR</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </header>
+<!--==============================content================================-->
+    <section id="content" class="cont_pad">
+    	<div class="content_inner">
+        <div class="container_12">
+            <div class="wrapper offers">
+              <article class="grid_3">
+                <div class="offer offer1">
+                  <div class="title">test</div>
+                  <p>DESCRIPTION DE TESTE</p>
+                  <a href="#" class="link1">Details</a>
+                </div>
+              </article>
+              <article class="grid_3">
+                <div class="offer offer2">
+                  <div class="title">UNIVERSITE</div>
+                  <p>DESCRIPTION DU  PLATEFORME</p>
+                  <a href="#" class="link1">Details</a>
+                </div>
+              </article>
+              <article class="grid_3">
+                <div class="offer offer3">
+                  <div class="title">ORIENTATION</div>
+                  <p>PARLEZ DE L'IMPOTANCE DE L'ORIENTATION POUR UNE PERSONNEQUI NE LA CONNAIT PAS</p>
+                  <a href="#" class="link1">Details</a>
+                </div>
+              </article>
+        </div>
+      </div>
+    </section>
+<!--==============================footer=================================-->
+    <footer>
+      <div class="container_12">
+        <div class="wrapper">
+          <article class="grid_12">
+            <div class="wrapper">
+              <div class="privacy">
+                <img src="./images/logo11.PNG" alt="" style="width: 20%; border:  2px solid none; border-radius: 620%;">&nbsp;
+                <span>&copy; HACKATON &middot; <a href="index-5.html">2023</a></span><br>
+                <!-- {%FOOTER_LINK} -->
+              </div>
+              <div class="call">SAYNA</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

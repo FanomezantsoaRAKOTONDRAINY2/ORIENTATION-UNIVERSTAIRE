@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="icon" href="images/logo11.PNG" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo11.PNG" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+	 <script type="text/javascript" src="js/jquery.responsivemenu.js"></script>
+	 <script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+	 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+   <script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+	 <script src="js/script.js"></script>
+</head>
+<body>
+<!--==============================header=================================-->
+   	<header>
+      <div class="container_12">
+        <div class="grid_12">
+          <div class="top_block wrapper">
+            <h1><a class="logo" href="index.html">High School</a></h1>
+            <div class="social">
+              <a href="#" title="Twitter"><img src="images/soc1.jpg" alt=""></a>
+              <a href="#" title="Facebook"><img src="images/soc2.jpg" alt=""></a>
+              <a href="#" title="AddThis"><img src="images/soc3.jpg" alt=""></a>
+              <a href="#" title="AIM"><img src="images/soc4.jpg" alt=""></a>
+              <a href="#" title="Dribble"><img src="images/soc5.jpg" alt=""></a>
+            </div>
+          </div>
+          <nav>
+            <ul class="sf-menu">
+                <li class="current"><a href="index.html"><span>ACCUEIL</span></a></li>
+                <li><a href="index-1.html">UNIVERSITE<span></span></a>
+                <ul>
+                    <li><a href="#">DIEGO</a></li>
+                    <li><a href="#">MAJUNGA</a>
+                    <li><a href="#">TOAMASINA</a></li>
+                    <li class="last"><a href="#">TANANARIVO</a></li>
+                    <li class="last"><a href="#">FIANARATSOA</a></li>
+                    <li class="last"><a href="#">TOLIARA</a></li>
+                </ul>
+                </li>
+                <li><a href="index-2.html"><span>ORIENTATION</span> </a></li>
+                <li><a href="index-3.html"><span>TEST </span></a></li>
+                <li><a href="index-4.html"><span>COMMENTAIRE</span></a></li>
+         </ul>
+          <form id="search" action="search.php" method="GET" accept-charset="utf-8">
+            <input type="text" name="s" value="Recherhe université" onBlur="if(this.value=='') this.value='SEARCH'" onFocus="if(this.value =='SEARCH' ) this.value=''" />
+            <a onclick="document.getElementById('search').submit()"></a>
+         </form> 
+         <div class="clear"></div>
+        </nav>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </header>
+<!--==============================content================================-->
+<section> 
+    <div >
+        <p style="text-align: center; align-items: center; font-size: 1rem; color: aliceblue;">
+            POUR QUELLE FILLIERE ETES VOUS FAIT ? <br>
+            Vous ne savez pas quoi faire .... <br> Vous nes savez pas quel métier faire plus tard ? Pour vous aider dans votre <br> réflexion.
+            <br> Le test suivant va  permettre dégager ce qui vous caractérise le plus  et <br> quelles sont vos motivations . 
+        </p>
+    </div>
+    <div style="background-color: aliceblue; height: 7vh;" >
+        <h1 style="text-align: center; align-items: center; font-size: 23px; color: black; background-color: aliceblue; padding: 14px;"> TEST D'ORIENTATION</h1>
+    </div>
+</section>    
+<form action="">
+  <div class="question"> </div>
+  <p style="margin-left: 4vh; color: aliceblue;" >Question? <br>Reponse</p>
+  <div class="test"> 
+        <input type="radio" name="q1" id="q1">
+        <label for="q1"></label>Oui<br>
+    </div>
+    <div class="test" style="margin-top: 1vh;"> 
+        <input type="radio" name="q1" id="q1">
+        <label for="q1"></label>non<br>
+    </div> 
+  </div>
+  <div class="question"> </div>
+  <p style="margin-left: 4vh; color: aliceblue;">Question? <br>Reponse</p>
+  <div class="test"> 
+      <input type="radio" name="q1" id="q1">
+      <label for="q1"></label>Oui<br>
+  </div>
+  <div class="test" style="margin-top: 1vh;"> 
+      <input type="radio" name="q1" id="q1">
+      <label for="q1"></label>non<br>
+  </div> 
+    </div>     
+    <div class="question"> </div>
+    <p style="margin-left: 4vh ; color: aliceblue;">Question? <br>Reponse</p>
+    <div class="test"> 
+            <input type="radio" name="q1" id="q1">
+            <label for="q1"></label>Oui<br>
+        </div>
+        <div class="test" style="margin-top: 1vh;"> 
+            <input type="radio" name="q1" id="q1">
+            <label for="q1"></label>non<br>
+    </div> 
+    </div>     
+    <div class="question"> </div>
+        <p style="margin-left: 4vh; color: aliceblue;">Question? <br>Reponse</p>
+        <div class="test"> 
+                <input type="radio" name="q1" id="q1">
+                <label for="q1"></label>Oui<br>
+            </div>
+            <div class="test" style="margin-top: 1vh;"> 
+                <input type="radio" name="q1" id="q1">
+                <label for="q1"></label>non<br>
+            </div> 
+    </div>     
+<div>
+    <div style="text-align: center">
+        <button style="padding: 3%; width: 200px; border-radius: 20px;border: none; background: ">VALIDE</button>
+    </div>
+</div>
+</form>
+<!--==============================footer=================================-->
+<footer>
+  <div class="container_12">
+    <div class="wrapper">
+      <article class="grid_12">
+        <div class="wrapper">
+          <div class="privacy">
+            <img src="./images/logo11.PNG" alt="" style="width: 20%; border:  2px solid none; border-radius: 620%;">&nbsp;
+            <span>&copy; HACKATON &middot; <a href="index-5.html">2023</a></span><br>
+            <!-- {%FOOTER_LINK} -->
+          </div>
+          <div class="call">SAYNA</div>
+        </div>
+      </article>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
