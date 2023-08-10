@@ -1,5 +1,3 @@
-let btn = document.querySelector('btntext'),
-    question = document.querySelector('.quistion');
 
 const tambleau = ['Préférez-vous les matières liées aux langues et à la littérature ?',
 'Êtes-vous à l\'aise avec la résolution de problèmes complexes ?',
