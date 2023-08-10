@@ -1,3 +1,5 @@
+let btn = document.querySelector('#btntext'),
+    quest = document.querySelector('#quistion')
 
 const tambleau = ['Préférez-vous les matières liées aux langues et à la littérature ?',
 'Êtes-vous à l\'aise avec la résolution de problèmes complexes ?',
@@ -15,15 +17,14 @@ const tambleau = ['Préférez-vous les matières liées aux langues et à la lit
 
  let currentIndex = 0;
 
-btn.onClick=function () {
-  
-}
+ document.querySelector('#btntext').onclick = function(){
+    alert('hhfgh')
+};
 
  
 //  btn.onclick = function(){
-//     body.style.background = halako[currentIndex];
 //     spn.textContent = halako[currentIndex];
 //     currentIndex = (currentIndex + 1) %  halako.length;
   
 //     console.log(halako[currentIndex]);
-//    };
+//    };   

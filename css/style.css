@@ -131,10 +131,11 @@ a.white:hover{color: #608227;}
 .advantage{border-bottom: 1px solid #353434;padding-bottom:45px;margin-bottom: 42px;}
 .advantage>div{padding: 4px 0 0px;}
 .advantage>figure{margin: 0 20px 0 0;}
-.page-test{}
 #quistion{text-align: center; color: white; font-size: 19px;margin-top: 4vw;}
 .btn-suivant{text-align: center;}
-#btntext{ padding: 2%; width: 200px; border-radius: 20px;border: none; cursor: pointer; background:rgb(121, 104, 101); font-size: 23px; color: white; margin-top: 3vw;}
+#btntext, .svt{ padding: 1%; width: 200px; border-radius: 20px;border: none; cursor: pointer; background:rgb(121, 104, 101); font-size: 23px; color: white; margin-top: 3vw;}
+.quizz, .q1, .q2 { color: white; font-size: 18px;}
+.quizz2, .q2{color: white; font-size: 18px;}
 .quizz {background-color: rgb(174, 206, 33); height: 3vh; width: 40%; border-radius: 9px;}
 .quizz, .quizz2{ padding: 15px; margin-left: 30vw;  } 
 .quizz2{background-color:  rgb(174, 206, 33); height: 3vh; width: 40%; border-radius: 9px; margin-top: 1vw; } 
