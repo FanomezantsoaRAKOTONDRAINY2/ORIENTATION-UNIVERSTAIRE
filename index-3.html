@@ -14,6 +14,7 @@
 	 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
    <script type="text/javascript" src="js/jquery.ui.totop.js"></script>
 	 <script src="js/script.js"></script>
+	 <script src="./js/quistion.js" ></script>
 </head>
 <body>
 <!--==============================header=================================-->
@@ -48,7 +49,7 @@
                 <li><a href="index-4.html"><span>COMMENTAIRE</span></a></li>
          </ul>
           <form id="search" action="search.php" method="GET" accept-charset="utf-8">
-            <input type="text" name="s" value="Recherhe université" onBlur="if(this.value=='') this.value='SEARCH'" onFocus="if(this.value =='SEARCH' ) this.value=''" />
+            <input type="text" name="s" placeholder="Recherche universite " onBlur="if(this.value=='') this.value='SEARC H'" onFocus="if(this.value =='SEARCH' ) this.value=''" />
             <a onclick="document.getElementById('search').submit()"></a>
          </form> 
          <div class="clear"></div>
@@ -57,7 +58,7 @@
         <div class="clear"></div>
       </div>
     </header>
-<!--==============================content================================-->
+<!--============================== test================================-->
 <section> 
     <div >
         <p style="text-align: center; align-items: center; font-size: 1rem; color: aliceblue;">
@@ -70,56 +71,24 @@
         <h1 style="text-align: center; align-items: center; font-size: 23px; color: black; background-color: aliceblue; padding: 14px;"> TEST D'ORIENTATION</h1>
     </div>
 </section>    
-<form action="">
+<section class="page-test" >
   <div class="question"> </div>
-  <p style="margin-left: 4vh; color: aliceblue;" >Question? <br>Reponse</p>
-  <div class="test"> 
-        <input type="radio" name="q1" id="q1">
-        <label for="q1"></label>Oui<br>
-    </div>
-    <div class="test" style="margin-top: 1vh;"> 
-        <input type="radio" name="q1" id="q1">
-        <label for="q1"></label>non<br>
-    </div> 
-  </div>
-  <div class="question"> </div>
-  <p style="margin-left: 4vh; color: aliceblue;">Question? <br>Reponse</p>
-  <div class="test"> 
-      <input type="radio" name="q1" id="q1">
-      <label for="q1"></label>Oui<br>
-  </div>
-  <div class="test" style="margin-top: 1vh;"> 
-      <input type="radio" name="q1" id="q1">
-      <label for="q1"></label>non<br>
-  </div> 
-    </div>     
-    <div class="question"> </div>
-    <p style="margin-left: 4vh ; color: aliceblue;">Question? <br>Reponse</p>
-    <div class="test"> 
-            <input type="radio" name="q1" id="q1">
-            <label for="q1"></label>Oui<br>
-        </div>
-        <div class="test" style="margin-top: 1vh;"> 
-            <input type="radio" name="q1" id="q1">
-            <label for="q1"></label>non<br>
-    </div> 
-    </div>     
-    <div class="question"> </div>
-        <p style="margin-left: 4vh; color: aliceblue;">Question? <br>Reponse</p>
-        <div class="test"> 
-                <input type="radio" name="q1" id="q1">
-                <label for="q1"></label>Oui<br>
-            </div>
-            <div class="test" style="margin-top: 1vh;"> 
-                <input type="radio" name="q1" id="q1">
-                <label for="q1"></label>non<br>
-            </div> 
-    </div>     
-<div>
-    <div style="text-align: center">
-        <button style="padding: 3%; width: 200px; border-radius: 20px;border: none; background: ">VALIDE</button>
-    </div>
-</div>
+  <p id="quistion"> Aimez-vous les sciences et les mathématiques ?</p>
+  <div class="test">
+    <div class="suos-test">
+      <div class="quizz">
+          <input type="checkbox" name="q1" id="q1" >
+          <label for="q1" id="qst1"></label>Oui</label> 
+        </div> 
+      <div class="quizz2">  
+        <input type="checkbox" name="q2" id="q2">
+        <label for="q2"></label>Non<br>
+      </div>
+     </div>     
+	<div class="btn-suivant">
+		<button id="btntext">suivant</button>
+	</div>
+</section>	
 </form>
 <!--==============================footer=================================-->
 <footer>
