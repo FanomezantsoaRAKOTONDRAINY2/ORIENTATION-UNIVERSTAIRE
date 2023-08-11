@@ -1,6 +1,13 @@
 let btn = document.querySelector('#btntext'),
-    quest = document.querySelector('#quistion')
-
+    quest = document.querySelector('#quistion'),
+    btn2 = document.querySelector('.btn2');
+    page2 = document.querySelector('.Start')
+    page3 = document.querySelector('.page-test')
+btn2.onclick = function(){
+    page2.style.display = 'none';
+    page3.style.display = ('block')
+}
+    
 const tambleau = ['Préférez-vous les matières liées aux langues et à la littérature ?',
 'Êtes-vous à l\'aise avec la résolution de problèmes complexes ?',
  'Êtes-vous intéressé(e) par les métiers liés à l\'informatique et à la technologie ?',
