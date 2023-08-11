@@ -18,8 +18,7 @@ const tambleau = ['Préférez-vous les matières liées aux langues et à la lit
  let currentIndex = 0;
 
  btn.onclick = function(){
-   spn.textContent = tambleau[currentIndex];
+    quest.textContent = tambleau[currentIndex];
     currentIndex = (currentIndex + 1) %  tambleau.length;
-  
-   console.log(tambleau[currentIndex]);
+    console.log(tambleau[currentIndex]);
 };   
