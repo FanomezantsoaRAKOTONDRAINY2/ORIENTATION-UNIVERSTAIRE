@@ -1,1 +1,3 @@
 # ORIENTATION-UNIVERSTAIRE
+
+We have seen that students are struggling when they pass the Baccalaureate and cannot find the school they are studying in, which is why we created this site to inform them that these are the universities in Madagascar.....
